@@ -1,4 +1,4 @@
-package _04_init_and_clean;
+package _06_init_and_clean;
 
 import java.util.Arrays;
 import java.util.Random;
