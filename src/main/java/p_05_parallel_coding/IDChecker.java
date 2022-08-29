@@ -1,6 +1,5 @@
 package p_05_parallel_coding;
 
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -31,6 +30,6 @@ public class IDChecker {
             HashSet<Integer> sa = new HashSet<>(a);
             boolean b1 = sa.retainAll(new HashSet<>(b));
             System.out.println(sa.size());
-        });
+        }).join();
     }
 }
